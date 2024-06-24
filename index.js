@@ -14,6 +14,7 @@ function getResults() {
         switch (type) {
           case "number":
             return parseInt(value);
+          // ... to add more typecasting cases
           default:
             return value;
         }
